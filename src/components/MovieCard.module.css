@@ -5,7 +5,7 @@
     transition: .5s;
 }
 
-.movieCard :hover{
+.movieCard :hover img,.movieCard :hover.title{
     opacity: 0.85;
     transform: translateY(-15px);
     transition: 0.5s;
@@ -13,6 +13,10 @@
 
 .movieImage{
     border-radius: 10px;
+}
+
+.title{
+    color: rgb(250, 230, 193);
 }
 
 @media (max-width: 560px){
